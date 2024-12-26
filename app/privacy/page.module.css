@@ -1,0 +1,4 @@
+.section p{
+    font-size: clamp(14px,1.1cqi,1.2rem);
+    color: darkgreen;
+}

@@ -1,0 +1,15 @@
+.Highlight {
+  container: high-light/inliine-size;
+}
+/* @supports (font-size: 1cqi) {
+  .Highlight p {
+    font-size: clamp(1rem, 3cqi, 1.5rem);
+  }
+} */
+
+.Highlight p{
+  font-family: "DM Sans", sans-serif;
+  text-align: justify;
+  /* text-justify: kashida; */
+}
+
