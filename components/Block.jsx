@@ -4,7 +4,7 @@ import styles from "./Block.module.css";
 const Block = ({ backgroundImage, content, title }) => {
   return (
     <div
-      className="block max-md:max-h-[75vh] max-md:aspect-[3/4] max-md:w-[100vw] "
+      className="block max-md:max-h-[75vh] max-md:aspect-[3/4] max-md:w-[100cq] "
       style={{ backgroundImage: `url(${backgroundImage})`, zIndex: "1" }}
     >
       <div className="inblock  p-7  text-blue-400 bg-white ">
