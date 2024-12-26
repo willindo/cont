@@ -3,7 +3,7 @@ import React from "react";
 
 const Icons = () => {
   return (
-    <div className=" bg-[#023e3e] text-yellow-600 " >
+    <div className="overflow-x-hidden bg-[#023e3e] text-yellow-600 " >
       <div className=" flex w-1/2 mx-auto items-center justify-between h-20  ">
         <a
           className=""
