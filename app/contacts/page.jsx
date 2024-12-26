@@ -8,8 +8,6 @@ export default function Page() {
         <>
         {/* <Shapes/> */}
         <Plan/>
-        <h1>hallo docker</h1>
-        <p>reposotory experienced level</p>
         </>
     )
 }
