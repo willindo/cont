@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <>
       <h1
-        className="fluid-type leading-[1.1em] @[768px]/body:text-[4cqi] "
+        className="fluid-type leading-[1.1em] @[768px]/body:text-[4cqi] min-[767px]:max-[1150px]:mb-4"
         style={{
           gridColumn: "1/2",
           gridRow: "2/3",
