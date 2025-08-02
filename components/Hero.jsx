@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <>
       <h1
-        className="fluid-type leading-[1.1em] @[768px]/body:text-[4cqi] min-[767px]:max-[1150px]:mb-4"
+        className="fluid-type leading-[1.1em] @[768px]/body:text-[4cqi] min-[767px]:max-[1150px]:"
         style={{
           gridColumn: "1/2",
           gridRow: "2/3",
@@ -17,7 +17,7 @@ const Hero = () => {
       </h1>
       <div style={{ gridColumn: "1/2", gridRow: "3/4", zIndex: "1" }}>
         <p
-          className="fluid-type text-balance [--fluid-type-min-size:0.5] [--fluid-type-max-size:1] md:self-start lg:max-xl:self-center "
+          className="fluid-type text-balance [--fluid-type-min-size:0.5] [--fluid-type-max-size:1] md:self-start lg:max-xl:self-center xl:max-[1250px]:mt-[2em] "
           // style={{ gridColumn: "1/2", gridRow: "3/4", zIndex: "1" }}
         >
           Turn your getaway with Vacastay Culture into a lot more fun and
