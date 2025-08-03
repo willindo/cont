@@ -41,7 +41,7 @@ export default function Home() {
     <>
       <div className=" moving relative w-[100vw] h-[100vh] overflow-hidden text-white ">
         <BackgroundVideo />
-        <div className="hero aspect-[20/9] max-md:text-center max-md:flex max-md:flex-col max-md:gap-[1rem]  max-md:pt-[10em] md:max-lg:pt-[5em]  ">
+        <div className="hero aspect-[20/9] max-md:text-center max-md:flex max-md:flex-col max-md:gap-[1rem]  max-md:pt-[10em]   ">
           <Hero />
         </div>
       </div>

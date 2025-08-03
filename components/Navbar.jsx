@@ -1,21 +1,41 @@
 'use client'
-import React, { useState } from 'react';
+import React, { useState,useRef, useEffect } from 'react';
 import Link from 'next/link';
 import styles from './Navbar.module.css';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const navRef = useRef(null);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+// Detect click outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        navRef.current &&
+        !navRef.current.contains(event.target)
+      ) {
+        setIsOpen(false);
+      }
+    };
+
+    if (isOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isOpen]);
+
 
   return (
-    <nav className={styles.navbar}>
+    <nav className={styles.navbar} ref={navRef}>
       <div className={styles.navContainer}>
         <div className={styles.logo}>
           <Link href="/">
-            
               <img src="./navbar_logo_white.png" alt="Logo" className={styles.logoImage} />
           </Link>
         </div>

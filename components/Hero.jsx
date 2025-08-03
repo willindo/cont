@@ -15,9 +15,9 @@ const Hero = () => {
       >
         Explore your gateway to the perfect stay
       </h1>
-      <div style={{ gridColumn: "1/2", gridRow: "3/4", zIndex: "1" }}>
+      <div className=" md:max-xl:pt-[3em] " style={{ gridColumn: "1/2", gridRow: "3/4", zIndex: "1" }}>
         <p
-          className="fluid-type text-balance [--fluid-type-min-size:0.5] [--fluid-type-max-size:1] md:self-start lg:max-xl:self-center  "
+          className="fluid-type text-balance   [--fluid-type-min-size:0.5] [--fluid-type-max-size:1] md:self-start lg:max-xl:self-center  "
           // style={{ gridColumn: "1/2", gridRow: "3/4", zIndex: "1" }}
         >
           Turn your getaway with Vacastay Culture into a lot more fun and
